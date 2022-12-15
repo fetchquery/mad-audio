@@ -1,0 +1,17 @@
+#1
+bell, 상점 진입
+christmas, 상점 진입 직후 및 내부
+chat1, 상점 퇴장 이후
+
+#2
+kakaotalk, 윤서 독백 이후
+chat2, 알람 직후
+
+#5
+chat5, 윤서 연락 직후
+
+#6
+clock, 상현과 건하 퇴장 이후
+
+#14
+soccer, 시작 직후
