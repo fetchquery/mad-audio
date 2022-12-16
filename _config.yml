@@ -1,6 +1,4 @@
 exclude:
-  - ./chat.txt
-  - ./script.pdf
-  - ./format
-  - ./timeline.txt
-  - ./src
+  - README.md
+  - script.pdf
+  - src

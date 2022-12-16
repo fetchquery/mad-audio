@@ -23,21 +23,23 @@ class Key {
     play() {
         this.audio.currentTime = this.time;
         this.audio.play();
-        this.progressElement.classList.toggle("playing");
+        if (!this.progressElement.classList.contains("playing")) {
+            this.progressElement.classList.add("playing");
+        }
         this.isPlaying = true;
     }
 
     pause() {
         this.time = this.audio.currentTime;
         this.audio.pause();
-        this.progressElement.classList.toggle("playing");
+        this.progressElement.classList.remove("playing");
         this.isPlaying = false;
     }
 
     end() {
         this.time = 0;
         this.audio.pause();
-        this.progressElement.classList.toggle("playing");
+        this.progressElement.classList.remove("playing");
         this.audio.currentTime = 0;
         this.isPlaying = false;
     }
@@ -60,11 +62,13 @@ class Key {
 }
 
 const keyElements = Array.from(document.querySelectorAll(".key"));
+
 const keys = keyElements.map(element => {
     const key = new Key(element, element.attributes.altsrc.nodeValue);
     element.addEventListener("click", () => key.handleClick());
     element.addEventListener("dblclick", () => key.end());
     key.audio.addEventListener("timeupdate", () => key.handleProgress());
+
     return key;
 });
 
