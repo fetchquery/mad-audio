@@ -17,8 +17,8 @@
 - (type): https://youtu.be/c8kuB_IzSLI
 - phone: https://youtu.be/R17ZMezKmMc
 - bell: https://youtu.be/82QgdaqZpGM
-- soccer ball: https://youtube.com/shorts/r7SKJEgiyKU
-- soccer relay: https://youtu.be/2dis2nOET5U
+- soccerball: https://youtube.com/shorts/r7SKJEgiyKU
+- soccerrelay: https://youtu.be/2dis2nOET5U
 
 ## Timeline
 ### 1
