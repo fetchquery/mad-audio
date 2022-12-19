@@ -73,11 +73,20 @@ const keys = keyElements.map(element => {
 });
 
 document.addEventListener("keydown", (event) => {
-    keyElements
-        .filter(element => event.key === element.attributes.keyplay.nodeValue)
-        .forEach(element => element.dispatchEvent(new Event("click")));
+    console.log(event);
+    if (event.key === " ") {
+        keyElements
+            .filter(element => element.querySelector("progress").classList.contains("playing"))
+            .forEach(element => element.dispatchEvent(new Event("click")));
+    } else if (event.key === "Enter") {
+        keyElements.forEach(element => element.dispatchEvent(new Event("dblclick")));
+    } else {
+        keyElements
+            .filter(element => event.key === element.attributes.keyplay.nodeValue)
+            .forEach(element => element.dispatchEvent(new Event("click")));
 
-    keyElements
-        .filter(element => event.key === element.attributes.keyend.nodeValue)
-        .forEach(element => element.dispatchEvent(new Event("dblclick")));
+        keyElements
+            .filter(element => event.key === element.attributes.keyend.nodeValue)
+            .forEach(element => element.dispatchEvent(new Event("dblclick")));
+    }
 });
