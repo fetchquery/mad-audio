@@ -74,16 +74,10 @@ const keys = keyElements.map(element => {
 
 document.addEventListener("keydown", (event) => {
     keyElements
-        .filter((element) => element.hasAttribute("keymap"))
-        .filter((element) => {
-            return event.key === element.attributes.keymap.nodeValue ||
-                event.key.toLowerCase() === element.attributes.keymap.nodeValue;
-        })
-        .forEach((element) => {
-            if (event.key === event.key.toLowerCase()) {
-                element.dispatchEvent(new Event("click"));
-            } else {
-                element.dispatchEvent(new Event("dblclick"));
-            }
-        });
+        .filter(element => event.key === element.attributes.keyplay.nodeValue)
+        .forEach(element => element.dispatchEvent(new Event("click")));
+
+    keyElements
+        .filter(element => event.key === element.attributes.keyend.nodeValue)
+        .forEach(element => element.dispatchEvent(new Event("dblclick")));
 });
