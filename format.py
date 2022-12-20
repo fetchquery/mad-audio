@@ -8,7 +8,7 @@
 
 import os
 
-dirs = ["background", "chat", "effect"]
+dirs = ["emotion", "background", "chat", "effect"]
 
 for dir in dirs:
     files = os.listdir(dir)
