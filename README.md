@@ -1,12 +1,13 @@
 # Audios
 ## Emotion
-|audio   |source                      |
-|-------:|:---------------------------|
-|conflict|https://youtu.be/2kVl78-Jcoc|
-|secret  |https://youtu.be/r5QrJ23lxt8|
-|tension |https://youtu.be/CB24RIPbcks|
-|rage    |https://youtu.be/-k59gpr2mSo|
-|joy     |https://youtu.be/J5hBmVW0Cn4|
+|audio    |source                      |
+|--------:|:---------------------------|
+|conflict |https://youtu.be/2kVl78-Jcoc|
+|secret   |https://youtu.be/r5QrJ23lxt8|
+|tension  |https://youtu.be/CB24RIPbcks|
+|rage     |https://youtu.be/-k59gpr2mSo|
+|joy      |https://youtu.be/J5hBmVW0Cn4|
+|lovestory|https://youtu.be/E35In9bsWh4|
 
 ## Background
 |audio    |source                      |

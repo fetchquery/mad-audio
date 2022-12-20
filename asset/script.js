@@ -73,7 +73,6 @@ const keys = keyElements.map(element => {
 });
 
 document.addEventListener("keydown", (event) => {
-    console.log(event);
     if (event.key === " ") {
         keyElements
             .filter(element => element.querySelector("progress").classList.contains("playing"))
