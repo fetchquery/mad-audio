@@ -64,7 +64,7 @@ class Key {
 const keyElements = Array.from(document.querySelectorAll(".key"));
 
 const keys = keyElements.map(element => {
-    const key = new Key(element, element.attributes.altsrc.nodeValue);
+    const key = new Key(element, element.attributes.src.nodeValue);
     element.addEventListener("click", () => key.handleClick());
     element.addEventListener("dblclick", () => key.end());
     key.audio.addEventListener("timeupdate", () => key.handleProgress());
@@ -81,11 +81,11 @@ document.addEventListener("keydown", (event) => {
         keyElements.forEach(element => element.dispatchEvent(new Event("dblclick")));
     } else {
         keyElements
-            .filter(element => event.key === element.attributes.keyplay.nodeValue)
+            .filter(element => event.key === element.attributes.play.nodeValue)
             .forEach(element => element.dispatchEvent(new Event("click")));
 
         keyElements
-            .filter(element => event.key === element.attributes.keyend.nodeValue)
+            .filter(element => event.key === element.attributes.end.nodeValue)
             .forEach(element => element.dispatchEvent(new Event("dblclick")));
     }
 });
