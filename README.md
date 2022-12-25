@@ -2,7 +2,7 @@
 ## Emotion
 |audio    |source                      |
 |--------:|:---------------------------|
-|conflict |https://youtu.be/2kVl78-Jcoc|
+|conflict |https://youtu.be/MI2wq39BPFo|
 |secret   |https://youtu.be/r5QrJ23lxt8|
 |tension  |https://youtu.be/CB24RIPbcks|
 |rage     |https://youtu.be/-k59gpr2mSo|
@@ -16,7 +16,7 @@
 |peaceful |https://youtu.be/alWEu3hxQxE|
 |(crowd)  |https://youtu.be/GvYr7avbmAo|
 |christmas|https://youtu.be/hG2trPQSWt0|
-|love     |https://youtu.be/GejPOsKBfWM|
+|love     |https://youtu.be/f4inH4tOw6A|
 |light    |https://youtu.be/gPB4M8Gqrsc|
 
 ## Chat

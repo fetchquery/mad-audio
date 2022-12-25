@@ -1,7 +1,8 @@
 import os
 
 urls = {
-    "lovestory": "https://youtu.be/E35In9bsWh4"
+    "conflict": "https://youtu.be/MI2wq39BPFo",
+    "love": "https://youtu.be/f4inH4tOw6A",
 }
 
 for i in urls.items():
