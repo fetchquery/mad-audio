@@ -42,7 +42,7 @@ body {
     text-align: center;
     overflow: hidden;
     font-weight: normal;
-    font-family: monospace, 'Consolas', 'Lucida Console';
+    font-family: 'Consolas', 'Lucida Console', monospace;
     z-index: 1;
 }
 
