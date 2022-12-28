@@ -2,22 +2,25 @@
 ## Emotion
 |audio    |source                      |
 |--------:|:---------------------------|
+|painful  |https://youtu.be/2kVl78-Jcoc|
 |conflict |https://youtu.be/MI2wq39BPFo|
 |secret   |https://youtu.be/r5QrJ23lxt8|
 |tension  |https://youtu.be/CB24RIPbcks|
 |rage     |https://youtu.be/-k59gpr2mSo|
-|joy      |https://youtu.be/J5hBmVW0Cn4|
 |lovestory|https://youtu.be/E35In9bsWh4|
 
 ## Background
 |audio    |source                      |
 |--------:|:---------------------------|
-|calm     |https://youtu.be/AgR1irb30sU|
+|trans1   |https://youtu.be/AgR1irb30sU|
+|trans2   |https://youtu.be/gPB4M8Gqrsc|
+|trans3   |https://youtu.be/LAbDL2g2MII|
+|trans4   |https://youtu.be/LAbDL2g2MII|
 |peaceful |https://youtu.be/alWEu3hxQxE|
 |(crowd)  |https://youtu.be/GvYr7avbmAo|
 |christmas|https://youtu.be/hG2trPQSWt0|
-|love     |https://youtu.be/f4inH4tOw6A|
-|light    |https://youtu.be/gPB4M8Gqrsc|
+|recursion|https://youtu.be/f4inH4tOw6A|
+|hug      |https://youtu.be/WMG-4DlRyqg|
 
 ## Chat
 |audio|
@@ -43,16 +46,16 @@
 |_   |calm           |화면 전환   |
 |0   |peaceful(crowd)|시작   |
 |1   |christmas      |시작   |
-|''  |bell           |상점 입장/퇴장   |
-|''  |chat1          |상점 퇴장 이후   |
+|1   |bell           |상점 입장/퇴장   |
+|1   |chat1          |상점 퇴장 이후   |
 |2   |chat2          |알람 직후   |
 |3   |soccerball     |승우 운동장   |
 |5   |chat5          |윤서 연락 직후   |
-|''  |love           |승우 회상   |
+|5   |love           |승우 회상   |
 |8   |conflict       |승우 상현 대립   |
 |9   |secret         |공을 보고 훔칠려 할 때   |
 |11  |tension        |공을 빌리러 갈 때   |
 |12  |rage           |준호 등장   |
 |13  |message        |문자 도착 순간   |
-|''  |joy            |문자 도착 순간   |
+|13  |joy            |문자 도착 순간   |
 |14  |soccerrelay    |시작 직후   |
