@@ -43,7 +43,7 @@
 # Timeline
 |time|audio          |desctption|
 |:--:|--------------:|:---------|
-|_   |calm           |화면 전환   |
+|_   |trans          |장면 전환   |
 |0   |peaceful(crowd)|시작   |
 |1   |christmas      |시작   |
 |1   |bell           |상점 입장/퇴장   |
@@ -52,10 +52,12 @@
 |3   |soccerball     |승우 운동장   |
 |5   |chat5          |윤서 연락 직후   |
 |5   |love           |승우 회상   |
+|6   |painful        |승우 복통   |
 |8   |conflict       |승우 상현 대립   |
 |9   |secret         |공을 보고 훔칠려 할 때   |
-|11  |tension        |공을 빌리러 갈 때   |
+|10  |tension        |공 도난을 확인할 때   |
 |12  |rage           |준호 등장   |
 |13  |message        |문자 도착 순간   |
 |13  |joy            |문자 도착 순간   |
 |14  |soccerrelay    |시작 직후   |
+|_   |lovestory      |끝   |
